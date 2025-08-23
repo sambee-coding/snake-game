@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #fff2ff;
+}
+.contianer{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ margin-top: 20%;
+
+}
+.bottle1{
+background-color: bisque;
+width: 30px;
+height: 100px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+
+}
+.bottle2{
+    background-color: bisque;
+width: 30px;
+height: 100px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+}
+.bottle3{
+    background-color: bisque;
+width: 30px;
+height: 100px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: 1px solid black;
+
+}
+.bottle4{
+     background-color: bisque;
+width: 30px;
+height: 100px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: 1px solid black; 
+}
+.bottle_hover:hover{
+    cursor: pointer;
+}
+
+.color-4{
+    padding-top: 60px;
+}
+.color-1{
+    width: 30px;
+    height: 20px;
+    background-color: red;
+    margin-top: 40px;
+}
+.color-2{
+      width: 30px;
+    height: 20px;
+    background-color:yellow;
+    padding-top:px;
+}
+.color-3{
+      width: 30px;
+    height: 20px;
+    background-color:yellowgreen;
+   
+}
+.other-1{
+     width: 30px;
+    height: 20px;
+    background-color:blueviolet;
+   
+}
+.color-6{
+     width: 30px;
+    height: 20px;
+ background-color:yellow;
+
+}
+.color-7{
+     width: 30px;
+    height: 20px;
+ background-color:red;
+ margin-top: 60px;
+}
