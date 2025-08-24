@@ -64,7 +64,7 @@ border-bottom: 1px solid black;
       width: 30px;
     height: 20px;
     background-color:yellow;
-    padding-top:px;
+  
 }
 .color-3{
       width: 30px;
@@ -90,6 +90,10 @@ border-bottom: 1px solid black;
  background-color:red;
  margin-top: 60px;
 }
-.flipBotttl{
-    
+.bottle-container {
+  transition: transform 0.8s; /* Smooths the animation */
+}
+
+.bottle-container.flipped {
+  transform: rotateY(180deg); /* The flip action */
 }
