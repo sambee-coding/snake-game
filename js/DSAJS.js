@@ -43,3 +43,40 @@ while ((match = regex.exec(text)) !== null) {
   console.log(match[0]);
    // Logs each "be"
 }
+
+
+
+/*
+var findMedianSortedArrays = function(nums1, nums2) {
+   let sorted = [...nums1, ...nums2].sort((a, b) => a - b);
+
+   let medians =[];
+             let final=medians + sorted[0] + sorted[2] % 2;
+   return  medians;
+
+};
+let nums1=[1,3];
+let nums2=[2];
+ findMedianSortedArrays(nums1,nums2);
+ console.log(medians);
+*/
+ var findMedianSortedArrays = function(nums1, nums2) {
+  let sorted = [...nums1, ...nums2].sort((a, b) => a - b);
+  let len = sorted.length;
+  let median;
+
+  if (len % 2 === 0) {
+    // Even length: average of two middle values
+    median = (sorted[len / 2 - 1] + sorted[len / 2]) / 2;
+  } else {
+    // Odd length: middle value
+    median = sorted[Math.floor(len / 2)];
+  }
+
+  return median;
+};
+
+let nums1 = [1, 3];
+let nums2 = [2];
+let result = findMedianSortedArrays(nums1, nums2);
+console.log(result); // Output: 2
