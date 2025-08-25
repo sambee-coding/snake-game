@@ -30,3 +30,16 @@ for(let i=0;i<nums.length;i++){
 let nums=[2,7,11,15]
 let target=9;
 addThem(nums,target);
+
+var me = "Abebe beso bela";
+var select = /be/gi; // ✅ This is a RegExp object
+console.log(select.exec(me)); // ✅ This will return the first match
+ 
+const text = "Abebe beso bela";
+const regex = /be/g;
+let match;
+
+while ((match = regex.exec(text)) !== null) {
+  console.log(match[0]);
+   // Logs each "be"
+}
